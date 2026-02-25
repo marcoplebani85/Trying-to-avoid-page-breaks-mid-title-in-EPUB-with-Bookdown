@@ -1,0 +1,19 @@
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+.caption { text-align: left; }
+
+h1, h2, h3, h4, p { page-break-after: avoid;  break-after: avoid;  page-break-inside: avoid; widows: 3; orphans: 3;}
+h1, h2, h3, h4 { page-break-after: avoid;  break-after: avoid;  page-break-inside: avoid; widows: 3; orphans: 3;}
